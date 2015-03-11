@@ -1,6 +1,26 @@
+{% load staticfiles %}
 <html>
 <head lang="en">
     <meta charset="UTF-8">
     <title>Game AddX</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{% static 'js/jquery-ui-1.11.0.custom/jquery-ui.min.css' %}">
+
+
 </head>
+<body>
+{% block content %}
+
+{% endblock %}
+</body>
+
+<script src="{% static 'js/jquery-1.11.1.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/jquery-ui-1.11.0.custom/jquery-ui.js' %}"></script>
+    <script src="{% static 'js/jquery-ui-1.11.0.custom/jq' %}"></script>
 </html>
