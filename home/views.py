@@ -5,3 +5,7 @@ from django.shortcuts import render
 
 def landing(request):
     return render(request, 'landing.html')
+
+
+def bootstrap(request):
+    return render(request, 'bootstrap_template.html')
