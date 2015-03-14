@@ -10,6 +10,7 @@ urlpatterns = patterns('',
     # url(r'^$', 'game_addx.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
     url(r'^$', 'home.views.landing', name='landing'),
+    url(r'^bootstrap/$', 'home.views.bootstrap', name="bootstrap"),
     url(r'^admin/', include(admin.site.urls)),
 )
 if settings.DEBUG:
