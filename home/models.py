@@ -8,4 +8,3 @@ class Email(models.Model):
     email = models.EmailField()
 
     # def send_email(self):
-    
